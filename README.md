@@ -1,16 +1,33 @@
-# React + Vite
+# Gunji The Sneakerhead
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Gunji The Sneakerhead is a polished React + Vite storefront for a sneaker-first brand that mixes streetwear staples with clean formal footwear. The experience includes a premium landing section, curated product cards, a drops area, styling CTA, and an about section tied to WhatsApp and Instagram.
 
-Currently, two official plugins are available:
+## What is included
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- A branded landing experience with a custom sneaker favicon and storefront title
+- Street and formal footwear categories with interactive product cards
+- WhatsApp-based shopping and styling calls-to-action
+- Responsive layout tuned for mobile and desktop browsing
 
-## React Compiler
+## Run locally
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+1. Install dependencies
+   ```bash
+   npm install
+   ```
+2. Start the development server
+   ```bash
+   npm run dev
+   ```
+3. Open the local Vite URL shown in the terminal
 
-## Expanding the ESLint configuration
+## Build for production
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+```bash
+npm run build
+```
+
+## Brand notes
+
+- The tab icon and header logo are powered by the custom branded asset in the public folder.
+- Product visuals can be swapped with real photos by replacing the image URLs in the product data.

@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 700" role="img" aria-label="Gunji sneaker illustration">
+  <rect width="600" height="700" fill="#eef2e8"/>
+  <circle cx="300" cy="420" r="220" fill="#dfe8d0"/>
+  <path d="M170 470c0-70 47-120 115-120h80c52 0 90 24 118 70 19 31 13 71-20 95H214c-31 0-44-12-44-45Z" fill="#2f3b26"/>
+  <path d="M198 332c30-24 63-39 106-39 54 0 86 16 111 44" stroke="#7c9a63" stroke-width="18" stroke-linecap="round"/>
+  <path d="M200 332l40-28M278 298l56-38M350 292l56-32" stroke="#4c5f3d" stroke-width="14" stroke-linecap="round"/>
+  <path d="M176 470h250" stroke="#a9c191" stroke-width="10" stroke-linecap="round"/>
+  <path d="M190 500h220" stroke="#f6f8f3" stroke-width="8" stroke-linecap="round" opacity="0.8"/>
+</svg>

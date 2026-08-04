@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { LOGO } from "./assets/logo.js";
+import heroSneaker from "./assets/hero-sneaker.svg";
 
 function SneakerIcon({ accent = "#5c7a4a", style = "lowtop" }) {
   const uid = React.useId().replace(/[:]/g, "");
@@ -408,9 +409,13 @@ function Hero() {
       <div className="hero-premium-visual">
         <div className="visual-backdrop"></div>
         <img
-          src="/src/assets/hero-sneaker.svg"
+          src="https://images.pexels.com/photos/9853355/pexels-photo-9853355.jpeg?auto=compress&cs=tinysrgb&w=1200"
           alt="Featured sneaker"
           className="visual-image"
+          onError={(e) => {
+            e.currentTarget.onerror = null;
+            e.currentTarget.src = heroSneaker;
+          }}
         />
         <div className="visual-tag">Street / Formal</div>
       </div>
@@ -508,12 +513,20 @@ function Trending() {
         </div>
         <div className="trend-shoes">
           <img
-            src="/src/assets/hero-sneaker.svg"
+            src="https://images.pexels.com/photos/3987281/pexels-photo-3987281.jpeg?auto=compress&cs=tinysrgb&w=1200"
             alt="Converse Chuck 70"
+            onError={(e) => {
+              e.currentTarget.onerror = null;
+              e.currentTarget.src = heroSneaker;
+            }}
           />
           <img
-            src="/src/assets/hero-sneaker.svg"
+            src="https://images.pexels.com/photos/9853355/pexels-photo-9853355.jpeg?auto=compress&cs=tinysrgb&w=1200"
             alt="Nike Air Force 1"
+            onError={(e) => {
+              e.currentTarget.onerror = null;
+              e.currentTarget.src = heroSneaker;
+            }}
           />
         </div>
       </div>
@@ -521,8 +534,12 @@ function Trending() {
         <div className="tile a">
           <img
             className="tile-photo"
-            src="/src/assets/hero-sneaker.svg"
+            src="https://images.pexels.com/photos/9853355/pexels-photo-9853355.jpeg?auto=compress&cs=tinysrgb&w=700"
             alt="Nike Air Force 1"
+            onError={(e) => {
+              e.currentTarget.onerror = null;
+              e.currentTarget.src = heroSneaker;
+            }}
           />
           <div className="tile-caption">
             Summer Must-Haves:<br />Air Force 1
@@ -531,8 +548,12 @@ function Trending() {
         <div className="tile b">
           <img
             className="tile-photo"
-            src="/src/assets/hero-sneaker.svg"
+            src="https://images.pexels.com/photos/3987281/pexels-photo-3987281.jpeg?auto=compress&cs=tinysrgb&w=700"
             alt="Converse Chuck 70"
+            onError={(e) => {
+              e.currentTarget.onerror = null;
+              e.currentTarget.src = heroSneaker;
+            }}
           />
           <div className="tile-caption">
             Restocked:<br />Converse Chuck 70
@@ -548,8 +569,12 @@ function StylistCTA() {
     <section className="stylist">
       <div className="stylist-visual">
         <img
-          src="/src/assets/hero-sneaker.svg"
+          src="https://images.pexels.com/photos/15557052/pexels-photo-15557052.jpeg?auto=compress&cs=tinysrgb&w=900"
           alt="Styling pair"
+          onError={(e) => {
+            e.currentTarget.onerror = null;
+            e.currentTarget.src = heroSneaker;
+          }}
         />
       </div>
       <div className="stylist-copy">

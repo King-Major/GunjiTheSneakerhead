@@ -1,6 +1,6 @@
 import React from "react";
 
-export function SneakerIcon({ accent = "#5c7a4a", style = "lowtop" }) {
+export function SneakerIcon({ accent = "#6f9973", style = "lowtop" }) {
   const uid = React.useId().replace(/[:]/g, "");
   const strokeProps = {
     stroke: "#232b1b",
@@ -104,7 +104,7 @@ export function SneakerIcon({ accent = "#5c7a4a", style = "lowtop" }) {
   );
 }
 
-export function OxfordIcon({ accent = "#5c7a4a" }) {
+export function OxfordIcon({ accent = "#6f9973" }) {
   const uid = React.useId().replace(/[:]/g, "");
   const strokeProps = {
     stroke: "#232b1b",

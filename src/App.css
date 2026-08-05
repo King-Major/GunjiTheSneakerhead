@@ -1,13 +1,13 @@
 ﻿/* App-specific styling moved from inline App.jsx */
 :root {
-  --olive-900: #2f3b26;
-  --olive-800: #3a4a2f;
-  --olive-700: #4c5f3d;
-  --olive-600: #5c7a4a;
-  --olive-500: #7c9a63;
-  --olive-300: #a9c191;
-  --olive-100: #eef2e8;
-  --olive-50: #f6f8f3;
+  --olive-900: #6f9973;
+  --olive-800: #6f9973;
+  --olive-700: #6f9973;
+  --olive-600: #6f9973;
+  --olive-500: #6f9973;
+  --olive-300: #6f9973;
+  --olive-100: #6f9973;
+  --olive-50: #6f9973;
   --paper: #fbfbf8;
   --white: #ffffff;
   --ink: #1c2117;
@@ -87,7 +87,7 @@ button:focus-visible,
 .loader-track {
   width: 220px;
   height: 2px;
-  background: rgba(255,255,255,0.15);
+  background: rgba(0, 0, 0, 0.15);
   position: relative;
   margin-top: 36px;
   border-radius: 2px;
